@@ -1,7 +1,7 @@
 apiVersion: krew.googlecontainertools.github.com/v1alpha2
 kind: Plugin
 metadata:
-  name: ingress-nginx
+  name: ingress-nginx-cm
 spec:
   shortDescription: Interact with ingress-nginx
   description: |
