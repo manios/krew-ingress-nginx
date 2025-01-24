@@ -22,7 +22,7 @@ And then install the plugin:
 kubectl krew install ingress-manios/ingress-nginx-cm 
 ```
 
-Then you can use it with `kubectl krew ingress-nginx-cm`.
+Then you can use it with `kubectl ingress-nginx-cm`.
 
 **NOTE**: We had to add the `-cm` suffix in the plugin name in order for krew not to throw an error with the existing official plugin.
 
