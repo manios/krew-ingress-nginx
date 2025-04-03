@@ -6,11 +6,11 @@ spec:
   shortDescription: Interact with ingress-nginx
   description: |
     A custom build of the official kubectl plugin for ingress-nginx.
-  version: v1.12.0
+  version: v1.12.1
   homepage: https://kubernetes.github.io/ingress-nginx/kubectl-plugin/
   platforms:
   - uri: https://github.com/manios/krew-ingress-nginx/releases/download/v1.12.0/kubectl-ingress-nginx_darwin_amd64.tar.gz
-    sha256: 2d3c249cc86d2f979704cedc2969d021f93e65dbd62f2fc6e54242cfc9445943
+    sha256: 036b04b731e0780a05ce8d87053ef75b780c163f4d8640e882e2a5cc30a712fb
     files:
     - from: "*"
       to: "."
@@ -20,7 +20,7 @@ spec:
         os: darwin
         arch: amd64
   - uri: https://github.com/manios/krew-ingress-nginx/releases/download/v1.12.0/kubectl-ingress-nginx_darwin_arm64.tar.gz
-    sha256: ac656ad1e7c8c61a1653c389f813bcbef8874173e05aa5f3481f60f4c479d126
+    sha256: d641ef89183d31e99af4219ea60aca2b9ee22894429dcb72e3bbc4fa6681fc4c
     files:
     - from: "*"
       to: "."
@@ -30,7 +30,7 @@ spec:
         os: darwin
         arch: arm64        
   - uri: https://github.com/manios/krew-ingress-nginx/releases/download/v1.12.0/kubectl-ingress-nginx_linux_amd64.tar.gz
-    sha256: d79abbfcc0e7e769cf477dd49ca779bcfe5142f10a8388ea268a92252d37f0cd
+    sha256: ea9c34e70cbd584e910d7ad6cc8f940a43911faffffeb1ef71b82c71a590c365
     files:
     - from: "*"
       to: "."
@@ -40,7 +40,7 @@ spec:
         os: linux
         arch: amd64
   - uri: https://github.com/manios/krew-ingress-nginx/releases/download/v1.12.0/kubectl-ingress-nginx_linux_arm64.tar.gz
-    sha256: a49416357048bf9c6536725d8641564154cc65223fc34c88de2ea59a164eb7b9
+    sha256: b664efe9d03dcef7657347721fadc3bc10ea06897468d73cfa3a336b92c77cd1
     files:
     - from: "*"
       to: "."
@@ -50,7 +50,7 @@ spec:
         os: linux
         arch: arm64        
   - uri: https://github.com/manios/krew-ingress-nginx/releases/download/v1.12.0/kubectl-ingress-nginx_windows_amd64.tar.gz
-    sha256: 51635f548111f1b9c39da4a43527a55d80b5adbd9144a08a7f589d3deadb8a33
+    sha256: adb5e5c52ed3f450491831d7b5356da9f82fa7cd6e3c44e6022d5a9e08242db7
     files:
     - from: "*"
       to: "."
@@ -60,7 +60,7 @@ spec:
         os: windows
         arch: amd64
   - uri: https://github.com/manios/krew-ingress-nginx/releases/download/v1.12.0/kubectl-ingress-nginx_windows_arm64.tar.gz
-    sha256: b113e155d5c9ae0c8521e4fcd76573df4b4a39c7f582c330afa38efac58a5ed3
+    sha256: f98fe9c745fda41bb8b2d39eee03d3fa6a990f73a4322b8a3fd06ad8b2d80070
     files:
     - from: "*"
       to: "."

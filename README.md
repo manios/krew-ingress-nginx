@@ -50,7 +50,13 @@ We will try to keep up with the [official supported versions](https://github.com
 
 | Supported | Ingress-NGINX version | k8s supported version        |
 |-----------|-----------------------|------------------------------|
+| 🔄        | **v1.12.1**           | 1.32, 1.31, 1.30, 1.29, 1.28 |
 | 🔄        | **v1.12.0**           | 1.32, 1.31, 1.30, 1.29, 1.28 |
 | 🔄        | **v1.11.4**           | 1.30, 1.29, 1.28, 1.27, 1.26 |
 | 🔄        | **v1.11.3**           | 1.30, 1.29, 1.28, 1.27, 1.26 |
 | 🔄        | **v1.11.2**           | 1.30, 1.29, 1.28, 1.27, 1.26 |
+
+
+## Disclaimer about security
+
+Due to lack of time, we build the executables manually (see [build.md](https://github.com/manios/krew-ingress-nginx/blob/buildscripts/build.md)) and upload them into this repository [Releases page](https://github.com/manios/krew-ingress-nginx/releases). So, at the moment there is no automated CI pipeline, security checks or code scans. Contributions are welcome!
